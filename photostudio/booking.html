@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+    <head>
+        <meta charset="utf-8"/>
+        <title>
+            Фотостудия "Eclipse" Иркутск
+        </title>
+        <link rel="stylesheet" href ="css/styles.css"/>  
+    </head>
+    <body>
+        <header class>
+            <div class="backgr">
+                <div class="backgr_flex">
+                    <div class="soc_net">
+                        <div class="inst">
+                            <a href=""><img src="img/inst4.png" width="30" height="30"></a>
+                        </div>
+                        <div class="vk">
+                            <a href=""><img src="img/vk.png" width="30" height="30"></a>
+                        </div>
+                        <div class="teleg">
+                            <a href=""><img src="img/tel.png" width="30" height="30"></a>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <div class="contact_flex">
+                            <div class="phone">
+                                <img src="img/phone.png" width="30" height="30">
+                            </div>
+                            <span>
+                                8 9XX XXX XX XX
+                            </span>
+                        </div>
+                    </div>
+                    <div class="booking">
+                        <a href="booking.html">ЗАБРОНИРОВАТЬ</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container_menu">
+                <div class="logo">
+                    <a href="index.html"><img src="img/_UL591PZPxI.jpg" width="312" height="76"></a>
+                </div>
+                <!-- <div class="container_nav"> -->
+                    <nav class="menu">
+                        <ul class="menu_items">
+                            <li id="menu_item_1">
+                                <a href="halls.html">ЗАЛЫ</a>
+                            </li>
+                            <li id="menu_item_2">
+                                <a href="">ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ</a>
+                            </li>
+                            <li id="menu_item_3">
+                                <a href="">ПРАВИЛА СТУДИИ</a>
+                            </li>
+                        </ul>
+                    </nav>
+                <!-- </div> -->
+            </div>
+        </header>
+        <main>
+            <div class="main_list3">
+                <form action="#" id="form" class="form__body">
+                    <div class="online_booking">
+                        <p>ОНЛАЙН-БРОНИРОВАНИЕ</p>
+                        <!-- <h1 class="form__title">ОНЛАЙН-БРОНИРОВАНИЕ</h1> -->
+                        
+                    </div>
+                    <div class="booking_halls_container">
+                        <div class="b_hall1" onclick="">
+                            <div class="b_hname1">Зал &laquo;Циклорама&raquo;</div>
+                            <div class="b_h_photo1"><img src="img/ciclor2.jpg" width="126" height="100"></div>
+                            <div class="b_h_price1">
+                                <p>1 час - 1000 рублей</p>
+                                
+                                
+                            </div>
+                        </div>
+                        <div class="b_hall2">
+                            <div class="b_hname2">Зал &laquo;Перфоманс&raquo;</div>
+                            <div class="b_h_photo2"><img src="img/perf3.jpg" width="126" height="100"></div>
+                            <div class="b_h_price2">
+                                <p>1 час - 1000 рублей</p>
+                                
+                                
+                            </div>
+                        </div>
+                        <div class="b_hall3">
+                            <div class="b_hname3">Зал &laquo;Романтика&raquo;</div>
+                            <div class="b_h_photo3"><img src="img/roman2.jpg" width="126" height="100"></div>
+                            <div class="b_h_price3">
+                                <p>1 час - 1000 рублей</p>
+                                
+                                
+                            </div>
+                        </div>
+                        <div class="b_hall4">
+                            <div class="b_hname4">Зал &laquo;Гламур&raquo;</div>
+                            <div class="b_h_photo4"><img src="img/glam3.jfif" width="126" height="100"></div>
+                            <div class="b_h_price4">
+                                <p>1 час - 1000 рублей</p>
+                               
+                                
+                            </div>
+                        </div>
+                        <div class="b_hall5">
+                            <div class="b_hname5">Зал &laquo;Лофт&raquo;</div>
+                            <div class="b_h_photo5"><img src="img/loft2.jpg" width="126" height="100"></div>
+                            <div class="b_h_price5">
+                                <p>1 час - 1000 рублей</p>
+                                
+                                
+                            </div>
+                        </div>
+                        <div class="b_hall6">
+                            <div class="b_hname6">Зал &laquo;Блэк&raquo;</div>
+                            <div class="b_h_photo6"><img src="img/black3.jpg" width="126" height="100"></div>
+                            <div class="b_h_price6">
+                                <p>1 час - 1000 рублей</p>
+                                
+                                
+                            </div>
+                        </div>
+                    </div> 
+                    
+</form>				
+
+<form class="hotel-reservation-form" method="post" action="create.php">
+<h1><i class="far fa-calendar-alt"></i>Форма бронирования зала (Все поля обязательны к заполнению)</h1>
+<div class="fields">
+
+<div class="wrapper">
+	<div>
+		<label for="arrival">Дата</label>
+		<div class="field">
+			<input id="arrival" type="date" name="arrival" required>
+		</div>
+	</div>
+</div>
+
+<div class="wrapper">
+	<div>
+		<label for="first_name">Имя</label>
+		<div class="field">
+			<i class="fas fa-user"></i>
+			<input id="first_name" type="text" name="first_name" placeholder="Ваше имя" required>
+		</div>
+	</div>
+	<div class="gap"></div>
+	<div>
+		<label for="last_name">Фамилия</label>
+		<div class="field">
+			<i class="fas fa-user"></i>
+			<input id="last_name" type="text" name="last_name" placeholder="Ваша фамилия" required>
+		</div>
+	</div>
+</div>
+
+<label for="email">Email</label>
+<div class="field">
+	<i class="fas fa-envelope"></i>
+	<input id="email" type="email" name="email" placeholder="primer@primer.ru" required>
+</div>
+
+<label for="phone">Номер телефона</label>
+<div class="field">
+	<i class="fas fa-phone"></i>
+	<input id="phone" type="tel" name="phone" placeholder="Ваш номер телефона" required>
+</div>
+
+<div class="wrapper">
+	<div>
+		<label for="adults">Сколько часов Вам нужно?</label>
+		<div class="field">
+			<select id="adults" name="adults" required>
+				<option disabled selected value="">--</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="1">5</option>
+				<option value="2">6</option>
+				<option value="3">7</option>
+				<option value="4">8</option>
+			</select>
+		</div>
+	</div>
+</div>
+
+<div class="wrapper">
+	<div>
+		<label for="photo">Услуги фотографа</label>
+		<div class="field">
+			<select id="photo" name="photo" required>
+				<option disabled selected value="">--</option>
+				<option value="1">Да</option>
+				<option value="1">Нет</option>
+			</select>
+		</div>
+	</div>
+	<div class="gap"></div>
+	<div>
+		<label for="style">Услуги стилиста</label>
+		<div class="field">
+			<select id="style" name="style" required>
+				<option disabled selected value="">--</option>
+				<option value="1">Да</option>
+				<option value="0">Нет</option>
+			</select>
+		</div>
+	</div>
+</div>
+
+<label for="room_pref">Зал</label>
+<div class="field">
+	<select id="room_pref" name="room_pref" required>
+		<option disabled selected value="">--</option>
+		<option value="Ciclorama">Циклорама</option>
+		<option value="Perfomance">Перфоманс</option>
+		<option value="Romance">Романтика</option>
+		<option value="Glamour">Гламур</option>
+		<option value="Loft">Лофт</option>
+		<option value="Black">Блэк</option>
+	</select>
+</div>
+    <input type="submit" value="Добавить">
+</div>
+</form>
+
+
+            </div>
+        </main>
+        <footer>
+            <div class="bot_backgr">
+                <div class="flex_botback">
+                    <div class="contacts">
+                        <p>КОНТАКТЫ</p>
+                        <p>8 9XX XXX XX XX</p>
+                        <p>8 9XX XXX XX XX</p>
+                    </div>
+                    <div class="adress">
+                        <p>АДРЕС</p>
+                        <p>г.Иркутск</p>
+                        <p>ул.Ширямова 1000, 2 этаж</p>
+                    </div>
+                    <div class="bot_soc_net">
+                        <p>СОЦИАЛЬНЫЕ СЕТИ</p>
+                        <div class="inst_bot">
+                            <div class="inst_block">
+                                <img src="img/inst4.png" width="20" height="20">
+                            </div>          
+                            <p>@eclipse_38</p>
+                        </div>
+                        <div class="vk_bot">
+                            <div class="vk_block">
+                                <img src="img/vk.png" width="20" height="20">
+                            </div>          
+                            <p><a href="">http:/eclipse_38</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </footer>
+        <script src="js/jsbook.js"></script>
+    </body>
+</html>
